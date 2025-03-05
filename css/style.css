@@ -6,13 +6,38 @@
 
 main{
     height: calc(100vh - 100px);
-    background-color: rgb(63, 61, 61);
+    background-color: rgb(139, 139, 139);
+    display: flex;
+}
+
+header{
+    position: sticky;
+    height: 100px;
+    background-color: darkgray;
     top: 0;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(105, 103, 103);
 }
 
 #sidebar{
     height: 100%;
     width: 150px;
-    background-color: grey;
+    background-color: black;
+}
+
+#container{
+    width: calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.upgrade{
+    width: 50px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    
 }
 
