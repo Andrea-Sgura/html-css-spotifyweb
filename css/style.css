@@ -26,8 +26,9 @@ footer{
 
 #sidebar{
     height: 100%;
-    width: 150px;
+    width: 220px;
     background-color: black;
+    padding-left: 10px;
 }
 
 #container{
@@ -43,6 +44,15 @@ footer{
     border-radius: 20px;
 }
 
+.logo{
+    height: 90px;
+    padding-top: 10px;
+}
+
+.homelist{
+    height: 150px;
+}
+
 /* Decoration */
 .design-text{
     font-size: small;
@@ -51,3 +61,13 @@ footer{
     text-align: center;
     padding-top: 10px;
 }
+
+.home{
+    height: 30px;
+}
+
+.homelist ul li{
+    color: #fff;
+    list-style-type: none;
+}
+
